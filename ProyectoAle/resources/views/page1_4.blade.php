@@ -43,10 +43,10 @@
                                             <FONT size="2">Cuando estes realizando tu pago, se te pedira un E-mail, es importante que utilices este:</FONT>
                                             <strong>netflix@pago.com</strong>
                                         </div>
-                                        <h4>{{$name}}, Realiza tu pago Plan Basico 190$Arg</h4>
+                                        <h4>{{$name}}, Realiza tu pago Plan Standard 230$Arg</h4>
                                       
                                         
-                                        <iframe src= "http://mpago.la/X0r2" height="500" width="900" ></iframe>
+                                        <iframe src= "http://mpago.la/PnHo" height="500" width="900" ></iframe>
 
                                          <div class="pull">    <br><br>             
                                            <button  type="submit" class=" btn btn btn-success btn-lg">

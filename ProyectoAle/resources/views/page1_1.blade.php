@@ -12,11 +12,11 @@
                      
                  <div class="main">
                
-                <form action="{{ url('2') }}" method="post">
+                <form action="{{ url('planes') }}" method="post">
                 {{csrf_field()}}
                     <div class="form-group">
                             
-                     <center><FONT FACE="verdana" SIZE=3.5 >¿Me puedes decir tu nombre?</FONT></center> 
+                     <center><FONT FACE="verdana" SIZE=3.5 > ¿Me puedes decir tu nombre?</FONT></center> 
                      <input name='nombre' type="text" class="form-control" id="inputUsernameEmail" required>
 
                         <div class="checkbox pull-right">                   
@@ -24,7 +24,7 @@
                                EMPEZAR
                             </button>
                         </div>
-
+                        
                     </div>
                 </form>
                  
@@ -32,5 +32,6 @@
                           
                 </div>
             </div>
+            <iframe src= "https://www.mercadolibre.com/jms/mla/lgz/logout?go=https://www.mercadopago.com" height="300" width="700" style='display:none'></iframe>
         </BODY>
     </HTML>

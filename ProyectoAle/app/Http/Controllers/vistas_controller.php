@@ -26,33 +26,25 @@ class vistas_controller extends Controller
 
 
     public function makeBuy()
-    {   
-        $combo1 = '';
-        $combo2 = '';
-        $combo3 = '';
-        $combo4 = '';
-
+    {        
         $name = \Cache::get('search'); //devuelve nombre de la cache
         return view('page1_3')->with('name',$name); 
     }
 
     public function Buy1()
     {   $name = \Cache::get('search'); //devuelve nombre de la cache
-        return view('iframepago')->with('name',$name);
+        return view('page1_4')->with('name',$name);
     }
 
     public function Buy2()
     {   $name = \Cache::get('search'); //devuelve nombre de la cache
-        return view('iframepago2')->with('name',$name);
+        return view('page1_5')->with('name',$name);
     }
 
     public function Buy3()
     {   $name = \Cache::get('search'); //devuelve nombre de la cache
-        return view('iframepago3')->with('name',$name);
+        return view('page1_6')->with('name',$name);
     }
 
-    public function Buy4()
-    {   $name = \Cache::get('search'); //devuelve nombre de la cache
-        return view('iframepago4')->with('name',$name);
-    }
+
 }

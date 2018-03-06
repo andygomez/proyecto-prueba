@@ -12,24 +12,17 @@
 |
 */
 
-Route::get('/1', 'vistas_controller@index');
+Route::get('/', 'vistas_controller@index');
 
-Route::post('/2', 'vistas_controller@getName');
+Route::post('/planes', 'vistas_controller@getName');
 
-Route::post('/3','vistas_controller@makeBuy');
-
-
-
-
-
-
-Route::get('/4','vistas_controller@Buy1');
+Route::post('/planbasico','vistas_controller@makeBuy');
+Route::post('/planstandard','vistas_controller@Buy1');
+Route::post('/planpremium','vistas_controller@Buy2');
+Route::post('/planmega','vistas_controller@Buy3');
 
 
 
 
-Route::get('/5','vistas_controller@Buy2');
-Route::post('/6','vistas_controller@Buy3');
-Route::post('/7','vistas_controller@Buy4');
 
 
